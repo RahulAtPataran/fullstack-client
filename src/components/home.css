@@ -1,0 +1,117 @@
+#root {
+    height: 100vh;
+  }
+  
+.outerContainer
+{
+display: flex;
+flex: 1;
+height: 100vh;
+justify-content: center;
+align-items: center;
+background-color: white;
+align-self: center;
+
+background-image: url('https://images.unsplash.com/photo-1471445281684-fdf28e036aa8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.Form_Container
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border-radius: 20px;
+    padding: 2%;
+    border: 1px solid black;
+    background-color:white;
+    box-shadow: 10px 10px 5px #aaaaaa; 
+}
+.FormContainer{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 20px;
+    padding: 2%;
+    border: 1px solid black;
+    background-color:white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+
+}
+
+.nameInput
+{
+
+    border-radius: 100;
+    padding: 10px;
+    
+display: flex;
+flex: 1;
+    margin-top: -5px;
+    margin-bottom: -5px;
+  
+
+}
+.mardiv
+{
+margin: 0px;
+display: flex;
+flex-direction: row;
+flex: 1;
+}
+
+.emailInput{
+
+
+    border-radius: 100;
+    
+display: flex;
+flex: 1;
+    padding: 10px;
+    
+
+}
+.wrongInput
+{
+    border-color: darkred;
+}
+.genderDiv
+{
+    display: flex;
+    flex-direction: row;
+    padding: 50;
+}
+
+.submitButton
+{
+
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.registerDivButton:hover
+{
+cursor: pointer;
+
+}
+
+.loginDivButton:hover
+{
+
+    cursor: pointer;
+
+}
+
+.button
+{
+    margin-top: 20px;
+    display: flex;
+    flex: 1;
+}

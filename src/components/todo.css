@@ -1,0 +1,180 @@
+.container
+{
+display: flex;
+flex: 1;
+height: 100vh;
+background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v475-katie-101-abstractblackandwhitebg_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=86196a47d14e811c3149f69279f90c1e');
+background-repeat: no-repeat;
+background-size: cover;
+justify-content: center;
+align-self: center;
+align-items: center;
+}
+.innerContainer
+{
+background-color: white;
+height: 70vh;
+box-shadow: white;
+box-shadow: 10px 10px 5px #aaaaaa;
+display: flex;
+padding: 20px;
+border-radius: 20px;
+flex-direction: column;
+width: 40%;
+}
+.Overlay
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 6;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.modals
+{
+    
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    
+flex: 1; 
+   height: max-content;
+    height: 50vh;
+}
+.inputs
+{
+
+    width: 100%;
+    height: 40px;
+}
+.title
+{
+    height: fit-content;
+    display: flex;
+}
+.header
+{
+    display: flex;
+    flex-direction: row;
+    height:fit-content;
+    width: 100%;
+}
+
+.addIcon
+{
+    width: 80px;
+    height: 80px;
+}
+.listicons
+{
+   width: 50px;
+   height: 50px;
+   margin-left: 10xp;
+   margin-right: 10px;
+}
+.Todo-demo-2
+{
+    width: 100%;
+    margin-top: 5px;
+}
+.completed
+{
+    background-color: lightgray;
+}
+
+.select
+{
+    height: 50px;
+}
+.dateItems
+{
+    margin-right: 10px;
+    display: flex;
+    flex: 1;
+    font-weight: bold;
+}
+.data
+{
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    margin-left: 15px;
+}
+.listitem
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    width: 98%;
+    padding-left: 10px;
+    
+    border-radius: 10px;
+}
+.todoicons
+{
+    display: flex;
+    width: 100%;
+    flex: 1;
+    flex-direction: row-reverse;
+    
+}
+.react-datepicker-popper {
+    z-index: 9999 !important;
+}
+.todos
+{
+overflow-y: auto;
+border-top: 1px dotted lightgray;
+display: flex;
+width: 100%;
+height: 100%;
+justify-content: start;
+align-items: flex-start;
+}
+
+.modalItem
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  height: max-content;
+  width: 300px;
+  margin-bottom: 10px;
+}
+.modalButton
+{
+    background-color: green;
+    color: white;
+    font-size: x-large;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 60px;
+}
+
+.adddiv
+{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    float: right;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+@media (min-width: 768px) and (max-width: 1024px)
+{
+    .innerContainer
+    {
+        width: 70%;
+    }
+}
+@media (max-width: 767px)
+{
+    .innerContainer
+    {
+        width: 95%;
+    }
+}

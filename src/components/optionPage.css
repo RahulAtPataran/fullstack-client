@@ -1,0 +1,190 @@
+#root {
+    height: 100vh;
+  }
+  
+.outerContainer
+{
+display: flex;
+flex: 1;
+height: 100vh;
+height: 100%;
+justify-content: center;
+align-items: center;
+background-color: white;
+
+align-self: center;
+}
+
+table{
+    width: 100%;
+}
+.Form_Container{
+
+    width: 70%;
+    padding: 2%;
+    background-color:white;
+    height: 70vh;
+    display:flex;
+    flex-direction: column;
+
+}
+.listUsers
+{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.joinRoomInput
+{
+display: flex;
+width: 100%;
+margin: 10px;
+
+}
+
+.joinRoomHeader
+{
+
+    display: flex;
+    width: 100%;
+    font-weight: bold;
+    font-size: large;
+    margin: 10px;
+
+}
+.joinInternalHeader
+{
+padding: 10px;
+align-self: center;
+}
+.joinInternal
+{
+    width: 100%;
+padding: 10px;
+}
+.joinRoomButton
+{
+
+    display: flex;
+    width: 100%;
+    margin: 10px;
+
+}
+
+.createRoom{
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    border-radius: 40;
+    border:2px solid black
+ 
+}
+.createRoomTitle{
+    display: flexbox;
+     flex: 3;
+     
+     
+}
+
+.createRoomButton{
+    flex: 7;
+   
+}
+
+.Join{
+flex: 8;
+border: 1px solid black;
+display: flex;
+flex-direction:column ;
+
+}
+.joinContainers
+{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 20px;
+}
+.connectUser{
+
+    flex: 1;
+    border-right: 2px solid black;
+    display: flex;
+    flex-direction: column;
+   
+
+
+}
+.joinRoom{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+
+}
+
+.userRow
+{
+
+    display: flex;
+    flex-direction: row;width: 100%;
+    margin-left: -15px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.userName
+{
+display: flex;
+flex: 7;
+
+font-size: large;
+font-weight: bold;
+padding: 10px;
+
+}
+
+.callicon{
+display: flex;
+flex: 3;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+  }
+th, td {
+    border-bottom: 1px solid #ddd;
+  }
+th {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .userProf
+  {
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+  }
+
+  .edit
+  {
+width: 100px;
+height: 40px;
+font-size: x-large;
+margin-right: 10px;
+
+  }
+  .logout
+  {
+
+    width: 100px;
+    height: 40px;
+    font-size: x-large;
+    background-color: crimson;
+    color: white;
+  }
